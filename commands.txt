@@ -1,0 +1,75 @@
+git --version
+
+git init
+
+git clone https://github.com/username/project.git
+
+git status
+
+git add .
+git add filename
+
+git commit -m "Your commit message"
+
+git push
+git push -u origin main
+git push origin main
+git push NR main
+git push NR master
+
+git pull
+git pull origin main
+git pull NR main
+git pull NR branchname
+
+git fetch
+git fetch origin
+
+git branch
+git branch -r
+git branch -a
+
+git checkout -b feature-branch
+git switch -c feature-branch
+
+git checkout main
+git checkout master
+git switch main
+git switch master
+git switch branchname
+
+git merge branchname
+
+git remote -v
+git remote add origin https://github.com/username/project.git
+git remote add NR https://github.com/username/project.git
+
+git log
+git log --oneline
+
+git rev-parse --abbrev-ref HEAD
+
+git branch -M main
+
+git restore filename
+git restore --staged filename
+git restore --source branchname filename
+
+git checkout branchname -- filename
+
+git diff
+git diff filename
+
+git branch -d branchname
+git branch -D branchname
+
+git push origin --delete branchname
+
+git switch -c feature-login
+git add invoice.php
+git commit -m "Updated invoice logic"
+git push -u origin feature-login
+
+git switch main
+git merge feature-login
+git push origin main
